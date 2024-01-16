@@ -1,0 +1,203 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.main-color {
+  color: #3c50e0 !important;
+}
+
+.navbar {
+  font-weight: 600;
+}
+
+.blue_button {
+  background-color: #3c50e0;
+  color: #ffffff;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.blue_button:hover {
+  background-color: #ffffff;
+  color: #3c50e0;
+  border: 1px solid #3c50e0;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.main-container {
+  display: flex;
+}
+
+.first-main-block {
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 60px;
+  background-color: #f3f4ff;
+  width: 50%;
+  height: 520px;
+  border-radius: 10px 0px 0px 10px;
+}
+.second-main-block {
+  background-color: #3c50e0;
+  width: 50%;
+  height: 520px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.main-text {
+  font-size: 60px;
+  margin-bottom: -20px;
+}
+
+.title {
+  margin-top: 110px;
+}
+
+.mg-top{
+  margin-top: 80px;
+}
+
+.title-text {
+  font-size: 18px;
+}
+
+.features {
+  padding-left: 85px;
+  padding-right: 85px;
+  font-size: 20px;
+}
+
+.telegram,
+.expert-advice,
+.experience-transfer {
+  width: 300px;
+  height: 300px;
+}
+
+.telegram-pic {
+  display: flex;
+  justify-content: start;
+}
+
+.advice-pic {
+  display: flex;
+  justify-content: center;
+}
+.transfer-pic {
+  display: flex;
+  justify-content: end;
+}
+
+.iphone_image {
+  width: 400px;
+}
+
+.qr-info {
+  padding-top: 100px;
+}
+
+.banner {
+  color: white;
+  background-color: #6373e6;
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-right: 250px;
+  padding-left: 250px;
+  font-size: 19px;
+  padding-bottom: 50px;
+}
+
+.logo-in-block{
+  width:130;
+}
+.stat{
+  width: 250;
+}
+
+.tg-in-block{
+  width: 150;
+}
+
+.pe-5-pt-3{
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+@media (max-width: 990px) {
+  .main-container {
+    flex-direction: column;
+  }
+  .first-main-block {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .second-main-block {
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .main-text {
+    font-size: 40px;
+    margin-bottom: -10px;
+  }
+
+  .features {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 16px;
+  }
+
+  .telegram,
+  .expert-advice,
+  .experience-transfer {
+    width: 100%; /* Take up the full width of the container */
+    text-align: center !important; /* Center the text */
+    margin-bottom: 20px; /* Add some space between the containers */
+  }
+
+  .telegram-pic,
+  .advice-pic,
+  .transfer-pic {
+    justify-content: center;
+  }
+
+  .banner {
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .iphone_image {
+    width: 350px;
+  }
+  .screen_block,.qr-info , .qr_image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-in-block{
+    width:100;
+  }
+  .stat{
+    width: 190;
+  }
+  
+  .tg-in-block{
+    width: 150;
+  }
+
+  .pe-5-pt-3{
+    padding-right: 10px;
+    padding-top: 40px;
+  }
+}
